@@ -115,16 +115,16 @@ body {
 }
 @media only screen and (max-width: 675px) {
   #karmelka {
-    display: none;
+    display: block;
   }
   #opakowanie {
-    display: none;
+    display: block;
   }
   #burger {
     display: block;
   }
   #ulotki1 {
-    display: none;
+    display: flex;
     justify-content: center;
     flex-direction: column;
   }
@@ -148,7 +148,6 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 30vh;
     grid-row: 1;
   }
   #opakowanie {
