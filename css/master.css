@@ -116,7 +116,7 @@ body {
     display: block;
   }
   #ulotki1 {
-    display: flex;
+    display: none;
     justify-content: center;
     flex-direction: column;
   }
