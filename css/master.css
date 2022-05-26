@@ -49,6 +49,7 @@ body {
 #karmelka {
   width: 15rem;
   height: auto;
+  max-width: 100%;
 }
 #content-lower {
   display: flex;
@@ -91,6 +92,7 @@ body {
 }
 .ulotka {
   width: 22rem;
+  max-width: 100%;
 }
 #ulotki {
     font-family: 'Lato', sans-serif;
@@ -120,6 +122,7 @@ body {
   }
   #ulotki1 img {
     margin-bottom: 1rem;
+    max-width: 100%;
   }
   #content {
     flex-direction: column;
