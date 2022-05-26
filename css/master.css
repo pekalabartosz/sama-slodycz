@@ -27,6 +27,9 @@
 #as {
   margin-right: 3rem;
 }
+#contact {
+  color: black;
+}
 body {
   margin: 0;
 }
@@ -46,8 +49,18 @@ body {
   height: 100%;
   background: red;
   font-family: 'Lato', sans-serif;
-  padding: 2rem;
   color: darkbrown;
+}
+.banner img {
+  padding: 2rem;
+}
+.banner p {
+  padding: 2rem;
+  padding-top: 0;
+}
+.banner h1 {
+  padding: 2rem;
+  padding-bottom: 0;
 }
 #karmelka {
   width: 15rem;
@@ -89,6 +102,8 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: .9rem;
+  flex-direction: column;
+    margin-bottom: 2rem;
 }
 .top-three {
   display: inline-grid;
@@ -171,5 +186,14 @@ body {
   }
   #nav-bar {
     position: static;
+  }
+  .banner img {
+    padding: 0;
+  }
+  .banner p {
+    padding: 0;
+  }
+  .banner h1 {
+    padding: 0;
   }
 }
