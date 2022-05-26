@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sama Słodycz</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="nav-bar">
+      <img src="samaslodycz.png" id="logo">
+      <img src="hamburger.png" id="burger">
+      <div id="as">
+        <a href="#content-lower">O FIRMIE</a>
+        <a href="#">NASZA CZEKOLADA</a>
+        <a href="#">KONTAKT</a>
+      </div>
+    </div>
+    <div id="mobile-menu">
+      <a href="#content-lower">O FIRMIE</a>
+      <a href="#">NASZA CZEKOLADA</a>
+      <a href="#">KONTAKT</a>
+    </div>
+    <div id="content">
+      <div class="top-three">
+        <div class="banner" id="karmel">
+          <h1>Kto to Karmelka?</h1>
+          <p>Wiewiórka Karmelka to nasza maskotka, która pomaga nam zadbać o dobro wszystkich innych zwierząt</p>
+          <img src="karmelka.png" id="karmelka">
+        </div>
+        <div class="banner" id="opakowanie-content">
+          <h1>Nowe opakowanie, ta sama słodycz!</h1>
+          <img src="wiewior/3.png" id="opakowanie">
+        </div>
+      </div>
+      <div id="ulotki" style="background: #ceb282;">
+        <h1>Nasze ulotki</h1>
+        <div id="ulotki1">
+          <img src="wiewior/1.png" class="ulotka">
+          <img src="wiewior/2.png" class="ulotka">
+          <img src="wiewior/5.png" class="ulotka">
+        </div>
+      </div>
+      <div id="content-lower">
+        <h1>Historia Samej Słodyczy</h1>
+        <p>Firma Sama Słodycz powstała w latach 70. XX wieku. Jej założycielem byli Bronisław i Maria Słodycz, którzy kochali słodkości tak bardzo jak siebie nawzajem.
+  Ich tajemna receptura była przekazywana z pokolenia na pokolenie, abyśmy do dziś mogli cieszyć się słodką chwilą przyjemności</p>
+      </div>
+      <div id="footer">
+        <p>@Sama Słodycz</p>
+      </div>
+    </div>
+    <script>
+      $("#burger").click(function() {
+        var display = $('#mobile-menu').css('display');
+        if (display == "none") {
+          $("#mobile-menu").css("display", "flex")
+        }
+        else {
+          $("#mobile-menu").css("display", "none")
+        }
+      });
+    </script>
+  </body>
+</html>
